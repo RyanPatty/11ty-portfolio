@@ -7,11 +7,11 @@ P﻿roblem:
 
 
 
-A software company has a popular mobile app which has generated some user feedback data in the form of over 6000 user reviews. Management wants you to derive new requirements from the user reviews. You can manually read and sort each piece of data, or you can find your own solution. The goal is to improve the app with the new requirements derived from the data.
+A software company has a popular mobile app which has generated some user feedback data in the form of over 6000 user reviews. Management wants you to derive new requirements from the user  reviews. You can manually read and sort each piece of data, or you can find your own solution. The goal is to improve the app with the new requirements derived from the data
 
 
 
-###Solution:
+### Solution:
 
 
 
@@ -36,7 +36,8 @@ Within the user reviews there was evidence of commonly occuring issues from whic
 4. Fix bug where users lose fishbucks when updates occur. 
 5. Add a new feature to allow fishtank customization.
 
-`﻿``python
+`﻿``py
+
 #~2300 words after first reduction
 #import pandas library
 import pandas as pd
@@ -185,3 +186,5 @@ data4.to_excel('C:/Users/Astro/Desktop/data/combined-chunks.xlsx', index=False)
 #display the data
 print(data4)
 `﻿``
+
+ :metal:
